@@ -1,0 +1,60 @@
+.header {
+    background-color: #fff;
+    height: 50px;
+    z-index: 99;
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    justify-content: space-between;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    flex: 3;
+    justify-content: space-between;
+}
+
+.header__inner>svg:first-child {
+    font-size: 40px;
+    color: var(--primary-blue);
+}
+
+
+.header__icons {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.header__avatar {
+    height: 27px !important;
+    width: 27px !important;
+    margin-right: 6px;
+}
+
+.header__avatar:nth-child(1) {
+    box-shadow: -4px 4px 5px #e3e3e38f;
+    background-color: #e3e3e3;
+    color: #666;
+}
+
+.header__avatar:nth-child(2) {
+    box-shadow: -4px 4px 5px #60b6fc69;
+    background-color: var(--primary-blue);
+}
+
+.header__avatar small {
+    font-size: 14px;
+}
+
+.header__avatarUser {
+    height: 34px !important;
+    width: 34px !important;
+}

@@ -1,0 +1,15 @@
+.peopleLinkGroup {
+    width: 90%;
+    max-width: 300px;
+    min-width: 200px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: var(--shadow-1);
+    margin-bottom: 30px;
+}
+
+.peopleLinkGroup h3 {
+    color: #777;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}

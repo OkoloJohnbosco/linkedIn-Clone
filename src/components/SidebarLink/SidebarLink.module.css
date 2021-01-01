@@ -1,0 +1,35 @@
+.sidebarLink button {
+    color: var(--text-grey);
+    width: 100%;
+    border-radius: 99px;
+    font: inherit;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    font-size: 90%;
+}
+
+.sidebarLink button svg {
+    margin-right: 10px;
+}
+
+.sidebarLink.sidebarLink__active button {
+    background-color: var(--primary-blue);
+    color: #fff;
+    border: 1px solid var(--secondary-blue);
+}
+
+.sidebarLink.sidebarLink__active button:hover {
+    color: var(--primary-blue);
+    background-color: transparent;
+    border: 1px solid var(--primary-blue);
+}
+
+.sidebarLink__badge>span {
+    background-color: #888 !important;
+    color: #fff;
+    margin-right: -20px;
+}

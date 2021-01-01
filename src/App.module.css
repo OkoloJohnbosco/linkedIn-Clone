@@ -1,0 +1,26 @@
+:root {
+  --primary-blue: #37a1f8;
+  --darker-blue: #0c88ee;
+  --secondary-blue: #37a1f822;
+  --text-grey: #777;
+  --fade-grey: #bbb;
+  --shadow-1: 0 0 10px rgba(0, 0, 0, .15);
+}
+
+.app {
+  background-color: #fbfbfb;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.app__content {
+  display: flex;
+  width: 100%;
+}
+
+.app__main {
+  flex: 1;
+  min-height: 300vh;
+}

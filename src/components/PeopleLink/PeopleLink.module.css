@@ -1,0 +1,48 @@
+.peopleLink {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 90%;
+    color: var(--text-grey);
+    margin-bottom: 15px;
+}
+
+.peopleLink__avatar {
+    width: 34px;
+    height: 34px;
+}
+
+.peopleLink__inner {
+    flex: 1;
+    margin-left: 10px;
+    display: flex;
+}
+
+
+.peopleLink__innerInfo {
+    flex: 1;
+}
+
+.peopleLink p {
+    text-transform: capitalize;
+}
+
+.peopleLink__name {
+    color: var(--primary-blue);
+    margin-bottom: 4px;
+    font-weight: bold;
+
+}
+
+.peopleLink__icon {
+    display: flex;
+    align-items: center;
+}
+
+.peopleLink__icon p {
+    margin-right: 5px;
+}
+
+.peopleLink__icon>* {
+    color: var(--fade-grey);
+}

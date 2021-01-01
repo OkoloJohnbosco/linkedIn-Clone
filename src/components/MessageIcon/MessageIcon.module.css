@@ -1,0 +1,21 @@
+.messageIcon {
+    display: flex;
+    align-items: center;
+}
+
+.messageIcon__avatar {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.messageIcon svg {
+    font-size: 18px;
+    color: #fff;
+}
+
+.messageIcon p {
+    margin-left: 8px;
+    text-transform: capitalize;
+    color: var(--text-grey);
+    font-size: 15px;
+}
